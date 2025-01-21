@@ -1,0 +1,38 @@
+.partners {
+  padding: 94px 0;
+}
+.partners-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 50px;
+}
+.partners-link {
+  fill: #afb1b8;
+}
+.partners-block {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.partners-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  width: 170px;
+  height: 92px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  border-radius: 4px;
+}
+.partners-link:hover {
+  border-color: #2196f3;
+}
+.partners-link:hover svg {
+  fill: #2196f3;
+  transition: all 0.5s ease-in-out;
+}

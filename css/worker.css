@@ -1,0 +1,33 @@
+.worker-box {
+  display: flex;
+  gap: 30px;
+}
+.worker-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.worker-box-item {
+  position: relative;
+}
+.worker-box-content {
+  position: absolute;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--text-item);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+
+  bottom: 0;
+  left: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+}

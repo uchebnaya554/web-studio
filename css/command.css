@@ -1,0 +1,72 @@
+.command-item-social-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  transition: all 0.5s ease-in-out;
+}
+.command {
+  background-color: #f5f4fa;
+  margin-top: 94px;
+  padding: 94px 0;
+}
+.command-box {
+  display: flex;
+  gap: 30px;
+}
+.command-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #212121;
+}
+.command-item-bottom {
+  background-color: #ffffff;
+  text-align: center;
+}
+.command-item-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+.command-item-worker {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-bottom: 16px;
+}
+.command-item-social {
+  padding-bottom: 30px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.command-item-social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+.command-item-social-icon:hover {
+  background-color: var(--header-link-hover);
+}
+.command-item-social-icon:hover svg {
+  fill: var(--text-item);
+}
+.command-item {
+  border-radius: 0px 0px 4px 4px;
+
+  box-shadow: 0px 2px 1px 0px #00000033;
+}

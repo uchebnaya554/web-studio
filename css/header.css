@@ -1,0 +1,75 @@
+.header-left {
+  display: flex;
+  gap: 93px;
+  align-items: center;
+}
+.header {
+  padding: 25px 0;
+}
+.header-logo-link {
+  font-family: 'Raleway', serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  color: var(--header-logo-link);
+}
+.header-web {
+  color: var(--header-web);
+}
+.header-link {
+  position: relative;
+}
+.header-link::after {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  height: 4px;
+  border-radius: 2px;
+  transition: all 1s ease;
+}
+.header-link:hover {
+  color: var(--header-link-hover);
+  transition: all 1s ease;
+}
+.header-link:hover::after {
+  background-color: var(--header-web);
+}
+.header-right svg {
+  height: 12px;
+  width: 16px;
+  fill: #757575;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-right {
+  display: flex;
+  gap: 30px;
+}
+.header-right-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.header-right-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  color: var(--header-right-link);
+}
+.header-right-link:hover {
+  color: var(--header-link-hover);
+  transition: all 1s ease;
+}
+.header-right-link:hover svg {
+  fill: var(--header-link-hover);
+  transition: all 1s ease;
+}

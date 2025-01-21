@@ -1,0 +1,19 @@
+.header-menu {
+  display: flex;
+  gap: 50px;
+}
+/* .header-item {
+  margin-right: 50px;
+}
+.header-item:last-child {
+  margin-right: 0;
+} */
+
+.header-link {
+  font-family: 'Roboto', serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  color: var(--header-link);
+}

@@ -1,0 +1,13 @@
+:root {
+  --max-with-container: 1200px;
+  --header-web: #2196f3;
+  --header-link: #212121;
+  --header-link-hover: #2196f3;
+  --header-logo-link: #000;
+  --header-right-link: #757575;
+  --background-color-box: #f5f4fa;
+  --box-title: #212121;
+  --box-text: #757575;
+  --text-item: #ffffff;
+  --footer-logo-link: #ffffff;
+}
